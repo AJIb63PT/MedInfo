@@ -1,6 +1,6 @@
-# albert_AVG_mark_KSPEU_Masters
+# medinfo
 
-AVG_mark_KSPEU_Masters
+get info from RF reester about medicom
 
 ## Project setup
 
@@ -10,10 +10,14 @@ npm install
 
 ## Parser config
 
-in index.js fill "login" and "password" with password and login for personal account
+create in repository mnns.json. Array from MNN names that you need 
 
 ### Compiles and hot-reloads for development
 
+```
+node index
+```
+if script is stopbyself or catch error. cancel and rerun 
 ```
 node index
 ```
