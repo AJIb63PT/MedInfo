@@ -21,3 +21,4 @@ if script is stopbyself or catch error. cancel and rerun
 ```
 node index
 ```
+after rerun script added new info to oldresult.json
