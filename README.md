@@ -1,6 +1,6 @@
 # Medinfo
 
-Get info from RF reester about medicom
+Get info from RF registry about medicom
 
 ## Project setup
 
