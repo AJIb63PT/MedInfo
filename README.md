@@ -1,6 +1,6 @@
-# medinfo
+# Medinfo
 
-get info from RF reester about medicom
+Get info from RF reester about medicom
 
 ## Project setup
 
@@ -10,7 +10,7 @@ npm install
 
 ## Parser config
 
-create in repository mnns.json. Array from MNN names that you need 
+Create in repository mnns.json. Array from MNN names that you need 
 
 ## start
 
@@ -18,9 +18,9 @@ create in repository mnns.json. Array from MNN names that you need
 node index
 ```
 ## specific
-if script is stop byself or catch error. cancel and rerun 
+If script is stop byself or catch error. cancel and rerun 
 
-if MNN don't give info. MNN will be write in noresult.json
+If MNN don't give info. MNN will be write in noresult.json
 
-after rerun script added new info to oldresult.json
+After rerun script added new info to oldresult.json
 
