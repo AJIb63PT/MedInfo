@@ -25,7 +25,6 @@ async function start() {
     const noResult = OldnoResult && OldnoResult.length ? [...OldnoResult]:[];
     let result = oldResult && oldResult.length ? [...oldResult]:[];
     console.log(startPoint);
-    console.log(result.length);
   
     const browser = await puppeteer.launch();
 
@@ -97,8 +96,10 @@ async function start() {
                 }
             }
         }
+        console.log('progress ' + (inde+1)/list.length*100 + ' %' );
 
-        console.log(result);
+        console.log('results ' + result.length);
+        console.log('nodata ' + noResult.length);
 
         const data = JSON.stringify(result);
         fs.writeFileSync('oldResult.json', data);
