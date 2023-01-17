@@ -1,6 +1,6 @@
 # Medinfo
 
-Get info from RF reester about medicom
+Get info from RF registry about medicom
 
 ## Project setup
 
@@ -20,9 +20,9 @@ node index
 
 ## Specific
 
-If script is stop byself or catch error. cancel and rerun 
+If script is stop byself or catch error. Cancel and rerun;
 
-If MNN don't give info. MNN will be write in noresult.json
+If MNN don't give info. MNN will be write in noResult.json;
 
-After rerun script added new info to oldresult.json
+After rerun script added new info to oldResult.json;
 
